@@ -3,14 +3,18 @@ const returnFirstTwoDrivers = function (drivers) {
   return drivers.slice(0, 2)
 }
 
+const returnLastTwoDrivers = function (drivers) {
+  return drivers.slice(-1, -3)
+}
+
 // function returnFirstTwoDrivers(drivers) {
 //   return drivers.slice(0, 2)
 // }
-// 
+//
 // const myfunc = () => {
-//   
+//
 // }
-// 
+//
 // console.log(myfunc.name)
 
 // function returnFirstTwoDrivers() {
