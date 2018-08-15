@@ -15,6 +15,13 @@ function createFareMultiplier(integer) {
   }
 }
 
+const fareDoubler = function createFareMultiplier(fare) {
+  return fare * 2
+}
+
+const byTwo = createFareMultiplier(2)
+
+byTwo(10)
 // function returnFirstTwoDrivers(drivers) {
 //   return drivers.slice(0, 2)
 // }
