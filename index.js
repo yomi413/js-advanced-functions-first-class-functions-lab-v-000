@@ -9,9 +9,11 @@ const returnLastTwoDrivers = function (drivers) {
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
-// function selectingDrivers() {
-//   return 
-// }
+function createFareMultiplier(integer) {
+  return function (fare) {
+    
+  }
+}
 
 // function returnFirstTwoDrivers(drivers) {
 //   return drivers.slice(0, 2)
