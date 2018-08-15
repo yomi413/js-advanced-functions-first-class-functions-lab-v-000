@@ -15,7 +15,7 @@ function createFareMultiplier(integer) {
   }
 }
 
-const fareDoubler /* its a fare multiplier */ = createFareMultiplier(fare)
+const fareDoubler /* its a fare multiplier */ = createFareMultiplier(fare*2)
 
 // function returnFirstTwoDrivers(drivers) {
 //   return drivers.slice(0, 2)
