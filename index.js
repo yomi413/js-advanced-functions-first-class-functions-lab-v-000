@@ -1,7 +1,17 @@
 // Code your solution in this file!
-const myVar = function returnFirstTwoDrivers(drivers) {
+const returnFirstTwoDrivers = function (drivers) {
   return drivers.slice(0, 2)
 }
+
+// function returnFirstTwoDrivers(drivers) {
+//   return drivers.slice(0, 2)
+// }
+// 
+// const myfunc = () => {
+//   
+// }
+// 
+// console.log(myfunc.name)
 
 // function returnFirstTwoDrivers() {
 //   const myVar = function myFunc(drivers) {
